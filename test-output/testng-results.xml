@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-13T00:26:18 BST" name="crendly app" finished-at="2023-07-13T00:29:14 BST" duration-ms="175526">
+    <groups>
+    </groups>
+    <test started-at="2023-07-13T00:26:18 BST" name="Test" finished-at="2023-07-13T00:29:14 BST" duration-ms="175526">
+      <class name="Testcase.giveLoan">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.giveLoan@3e78b6a5]" started-at="2023-07-13T00:26:35 BST" name="setup" finished-at="2023-07-13T00:26:39 BST" duration-ms="4213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyGiveLoan()[pri:0, instance:Testcase.giveLoan@3e78b6a5]" started-at="2023-07-13T00:26:39 BST" name="verifyGiveLoan" finished-at="2023-07-13T00:26:57 BST" duration-ms="18444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGiveLoan -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.giveLoan@3e78b6a5]" started-at="2023-07-13T00:26:57 BST" name="teardown" finished-at="2023-07-13T00:26:57 BST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.giveLoan -->
+      <class name="Testcase.payment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:27:27 BST" name="setup" finished-at="2023-07-13T00:27:31 BST" duration-ms="4051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserPaymentWithCard()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:27:31 BST" name="VerifyUserPaymentWithCard" finished-at="2023-07-13T00:27:49 BST" duration-ms="18881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserPaymentWithCard -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:27:49 BST" name="teardown" finished-at="2023-07-13T00:27:50 BST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:27:50 BST" name="setup" finished-at="2023-07-13T00:27:54 BST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyuserpaymentWithBank()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:27:54 BST" name="verifyuserpaymentWithBank" finished-at="2023-07-13T00:28:03 BST" duration-ms="9030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserpaymentWithBank -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.payment@24105dc5]" started-at="2023-07-13T00:28:03 BST" name="teardown" finished-at="2023-07-13T00:28:03 BST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.payment -->
+      <class name="Testcase.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:26:57 BST" name="setup" finished-at="2023-07-13T00:27:01 BST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginwithinvalidDetails()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:01 BST" name="VerifyLoginwithinvalidDetails" finished-at="2023-07-13T00:27:02 BST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginwithinvalidDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:02 BST" name="teardown" finished-at="2023-07-13T00:27:02 BST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:02 BST" name="setup" finished-at="2023-07-13T00:27:06 BST" duration-ms="3667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyforgetpasscode()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:06 BST" name="verifyforgetpasscode" finished-at="2023-07-13T00:27:06 BST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyforgetpasscode -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:06 BST" name="teardown" finished-at="2023-07-13T00:27:07 BST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:07 BST" name="setup" finished-at="2023-07-13T00:27:13 BST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyloginWithValiddetails()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:13 BST" name="verifyloginWithValiddetails" finished-at="2023-07-13T00:27:14 BST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithValiddetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Login@769a1df5]" started-at="2023-07-13T00:27:14 BST" name="teardown" finished-at="2023-07-13T00:27:14 BST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.Login -->
+      <class name="Testcase.addfunds">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.addfunds@7dc19a70]" started-at="2023-07-13T00:26:18 BST" name="setup" finished-at="2023-07-13T00:26:23 BST" duration-ms="4962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserCanTopUp()[pri:0, instance:Testcase.addfunds@7dc19a70]" started-at="2023-07-13T00:26:23 BST" name="verifyUserCanTopUp" finished-at="2023-07-13T00:26:34 BST" duration-ms="11085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanTopUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.addfunds@7dc19a70]" started-at="2023-07-13T00:26:34 BST" name="teardown" finished-at="2023-07-13T00:26:35 BST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.addfunds -->
+      <class name="Testcase.Settings">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:03 BST" name="setup" finished-at="2023-07-13T00:28:07 BST" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserCanEditMyAccountFunction()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:07 BST" name="VerifyUserCanEditMyAccountFunction" finished-at="2023-07-13T00:28:18 BST" duration-ms="11047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanEditMyAccountFunction -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:18 BST" name="teardown" finished-at="2023-07-13T00:28:19 BST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:19 BST" name="setup" finished-at="2023-07-13T00:28:24 BST" duration-ms="5178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserCanEditNOKFunction()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:24 BST" name="VerifyUserCanEditNOKFunction" finished-at="2023-07-13T00:28:41 BST" duration-ms="17232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanEditNOKFunction -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:41 BST" name="teardown" finished-at="2023-07-13T00:28:41 BST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:41 BST" name="setup" finished-at="2023-07-13T00:28:48 BST" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUsercanGetInTouch()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:48 BST" name="VerifyUsercanGetInTouch" finished-at="2023-07-13T00:28:59 BST" duration-ms="10986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsercanGetInTouch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:59 BST" name="teardown" finished-at="2023-07-13T00:28:59 BST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:28:59 BST" name="setup" finished-at="2023-07-13T00:29:03 BST" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyuserSetting()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:29:03 BST" name="VerifyuserSetting" finished-at="2023-07-13T00:29:13 BST" duration-ms="10845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyuserSetting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.Settings@5167f57d]" started-at="2023-07-13T00:29:13 BST" name="teardown" finished-at="2023-07-13T00:29:14 BST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.Settings -->
+      <class name="Testcase.transaction">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase.transaction@41f69e84]" started-at="2023-07-13T00:27:14 BST" name="setup" finished-at="2023-07-13T00:27:18 BST" duration-ms="4103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyusercanviewtransactions()[pri:0, instance:Testcase.transaction@41f69e84]" started-at="2023-07-13T00:27:18 BST" name="verifyusercanviewtransactions" finished-at="2023-07-13T00:27:26 BST" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusercanviewtransactions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcase.transaction@41f69e84]" started-at="2023-07-13T00:27:26 BST" name="teardown" finished-at="2023-07-13T00:27:27 BST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcase.transaction -->
+    </test> <!-- Test -->
+  </suite> <!-- crendly app -->
+</testng-results>

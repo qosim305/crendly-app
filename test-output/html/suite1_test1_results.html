@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">Testcase.addfunds<br>Testcase.giveLoan<br>Testcase.Login<br>Testcase.transaction<br>Testcase.payment<br>Testcase.Settings<br></th>
+	    <th id="testClassNameId" hidden="true">addfunds<br>giveLoan<br>Login<br>transaction<br>payment<br>Settings<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">crendly app</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\eclipse-workspace\crendly\testrunner\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:02:55</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>12</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																																
+				
+				
+												<tr>
+			<td class="time">1689204426328</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('698e14e3-c135-4528-9a08-23a09779e88c','block');changeSingleIcon('span-698e14e3-c135-4528-9a08-23a09779e88c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Login</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-698e14e3-c135-4528-9a08-23a09779e88c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204426328</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyforgetpasscode</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.471s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="698e14e3-c135-4528-9a08-23a09779e88c" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204433519</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('a6b926bc-4922-470b-8b8d-cecd65a9d2ee','block');changeSingleIcon('span-a6b926bc-4922-470b-8b8d-cecd65a9d2ee');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Login</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-a6b926bc-4922-470b-8b8d-cecd65a9d2ee' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204433519</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyloginWithValiddetails</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.640s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="a6b926bc-4922-470b-8b8d-cecd65a9d2ee" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204421848</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('c0ef66ed-a9a9-48d6-bc3e-0ae669fcbf06','block');changeSingleIcon('span-c0ef66ed-a9a9-48d6-bc3e-0ae669fcbf06');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Login</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-c0ef66ed-a9a9-48d6-bc3e-0ae669fcbf06' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204421848</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyLoginwithinvalidDetails</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.610s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="c0ef66ed-a9a9-48d6-bc3e-0ae669fcbf06" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1689204504192</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4bf0ecc0-539c-4713-bc99-2108246a1907','block');changeSingleIcon('span-4bf0ecc0-539c-4713-bc99-2108246a1907');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Settings</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4bf0ecc0-539c-4713-bc99-2108246a1907' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204504192</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUserCanEditNOKFunction</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>17.232s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="4bf0ecc0-539c-4713-bc99-2108246a1907" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204487724</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1c227469-7eb2-420e-bb9f-025e5ef832a5','block');changeSingleIcon('span-1c227469-7eb2-420e-bb9f-025e5ef832a5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Settings</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1c227469-7eb2-420e-bb9f-025e5ef832a5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204487724</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUserCanEditMyAccountFunction</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>11.047s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1c227469-7eb2-420e-bb9f-025e5ef832a5" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204543064</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('353f7d8f-dd4e-4ad2-bb0c-fd92312d5067','block');changeSingleIcon('span-353f7d8f-dd4e-4ad2-bb0c-fd92312d5067');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Settings</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-353f7d8f-dd4e-4ad2-bb0c-fd92312d5067' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204543064</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyuserSetting</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>10.845s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="353f7d8f-dd4e-4ad2-bb0c-fd92312d5067" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204528017</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8115a31d-e1f1-49be-a94d-ebb4516882e6','block');changeSingleIcon('span-8115a31d-e1f1-49be-a94d-ebb4516882e6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.Settings</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-8115a31d-e1f1-49be-a94d-ebb4516882e6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204528017</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUsercanGetInTouch</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>10.986s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="8115a31d-e1f1-49be-a94d-ebb4516882e6" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1689204383668</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('52c709eb-5b93-4f15-9dd5-b91b51e1044c','block');changeSingleIcon('span-52c709eb-5b93-4f15-9dd5-b91b51e1044c');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.addfunds</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-52c709eb-5b93-4f15-9dd5-b91b51e1044c' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204383668</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyUserCanTopUp</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>11.085s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="52c709eb-5b93-4f15-9dd5-b91b51e1044c" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1689204399251</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6d3a3bd3-5fb1-4ad3-810d-102a5b7ef235','block');changeSingleIcon('span-6d3a3bd3-5fb1-4ad3-810d-102a5b7ef235');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.giveLoan</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6d3a3bd3-5fb1-4ad3-810d-102a5b7ef235' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204399251</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyGiveLoan</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>18.444s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="6d3a3bd3-5fb1-4ad3-810d-102a5b7ef235" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1689204451094</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0e5ce9a7-381e-4acc-8450-6a8d2aa813c7','block');changeSingleIcon('span-0e5ce9a7-381e-4acc-8450-6a8d2aa813c7');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.payment</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-0e5ce9a7-381e-4acc-8450-6a8d2aa813c7' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204451094</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VerifyUserPaymentWithCard</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>18.881s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="0e5ce9a7-381e-4acc-8450-6a8d2aa813c7" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1689204474481</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('80a6b36a-87dd-4f88-bdea-6ddb3f092bd3','block');changeSingleIcon('span-80a6b36a-87dd-4f88-bdea-6ddb3f092bd3');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.payment</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-80a6b36a-87dd-4f88-bdea-6ddb3f092bd3' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204474481</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyuserpaymentWithBank</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>9.030s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="80a6b36a-87dd-4f88-bdea-6ddb3f092bd3" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1689204438518</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('51f6f9ce-097e-4055-9aef-dfc09cf9d31f','block');changeSingleIcon('span-51f6f9ce-097e-4055-9aef-dfc09cf9d31f');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>Testcase.transaction</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-51f6f9ce-097e-4055-9aef-dfc09cf9d31f' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1689204438518</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>verifyusercanviewtransactions</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>8.278s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="51f6f9ce-097e-4055-9aef-dfc09cf9d31f" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

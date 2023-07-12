@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [crendy app]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcase.addfunds">
+        <methods>
+          <include name="Verifyusercanwithdraw"/>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- Testcase.addfunds -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [crendy app] -->
